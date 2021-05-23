@@ -1,13 +1,62 @@
 <html>
     <head>
         <title>Survey</title>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <form action="index.php" name="my form" method="POST">
-            
-            First Name: <input type="text" name="firstname"><br>
-            Last Name: <input type="text" name="lastname">
 
-        </form>
+    <body>
+
+        <h1>Please review the site linked <a href="https://moicart.github.io/">here.</a></h1>
+
+        <a href="https://moicart.github.io">
+            <img src="moicart.png" alt="moicart"><br>
+        </a>
+
+        <div class="form">
+
+            <form action="index.php" class="my-form" method="POST">
+                
+                <div class="container">
+
+                    <div class="about-user">
+                        Full Name: <input type="text" name="name"><br><br>
+
+                        Age Group:<br>
+                        <input type="radio" name="age" value="10-15">10-15<br>
+                        <input type="radio" name="age" value="16-20">16-20<br>
+                        <input type="radio" name="age" value="21-25">21-25<br>
+                        <input type="radio" name="age" value="26+">26+<br>
+                    </div>
+
+                </div>
+                
+                <div class="container">
+                    <div class="survey-questions">
+                        Please select the boxes of the phrase you agree with:<br>
+                        <input type="checkbox" name="1" value="1">Scrolling through the site is intuitive.<br>
+                        <input type="checkbox" name="2" value="2">The navigation bar is easy to use.<br>
+                        <input type="checkbox" name="3" value="3">The UI is easy to read and is appealing to me.<br><br>
+
+                        What colour scheme would you prefer?<br>
+                        <select name="favourite">
+                            <option value="1" selected="selected">The current scheme (Green/Purple)</option>
+                            <option value="2">Red/Blue</option>
+                            <option value="3">Pink/Purple</option>
+                        </select><br><br>
+
+                        Comments:<br>
+                            <textarea rows="5" cols="30"></textarea><br>
+
+                    </div>
+
+                </div>
+                <br>
+                <input type="submit">
+                <p>Site created by Dish</p>
+
+            </form>
+
+        </div>
+
     </body>
 </html>
