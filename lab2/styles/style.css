@@ -35,3 +35,19 @@
   border: 1px solid #ccc;
   border-top: none;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: red;
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.title {
+  text-align: center;
+  color:red;
+}
