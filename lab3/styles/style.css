@@ -43,6 +43,7 @@
   border-bottom-right-radius: 10px;
   margin-right: 500px;
   margin-left: 500px;
+  font-size: 20px;
 }
 
 .footer {
@@ -61,6 +62,15 @@
   color:rgb(255, 255, 255);
 }
 
+.nextButton {
+  width: 60px;
+  height: 30px;
+  font-size: 20px;
+  background-color: rgb(39, 38, 63);
+  color: white;
+}
+
 body {
   background-color: rgb(39, 38, 63);
+  font-family: Arial;
 }
