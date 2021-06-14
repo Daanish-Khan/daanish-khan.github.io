@@ -62,5 +62,23 @@ body {
     color: rgb(158, 193, 163);
 }
 
+.modal-header, .modal-footer {
+    background-color: rgb(31, 54, 61);
+}
+
+.modal-body {
+    background-color: rgb(64, 121, 140);
+}
+
+.modal-content {
+    color: rgb(207, 224, 195);
+    font-weight: bold;
+}
+
+.form-text {
+    color: rgb(207, 224, 195);
+    font-style: italic;
+}
+
 
 
