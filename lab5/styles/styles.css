@@ -1,6 +1,53 @@
+html {
+    scroll-padding-top: 100px;
+}
+
+.accordion-button, #box, .navbar {
+    background-color: rgb(64, 121, 140);
+}
+
+.scrolled {
+    background-color: rgb(158, 193, 163) !important;
+    transition: background-color 200ms linear;
+}
+
 td{
     font-size: 25px;
 }
+
+.navbar .h1 {
+    color: rgb(207, 224, 195);
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.navbar .navbar-nav .nav-link {
+    color: rgb(207, 224, 195);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .nav-item.active .nav-link,
+.navbar .nav-item:focus .nav-link,
+.navbar .nav-item:hover .nav-link,
+.navbar .navbar-brand:hover {
+    color: rgb(31, 54, 61);
+}
+
+.scrolled .navbar-nav .nav-link,
+.scrolled .h1 {
+    color: #40798C;
+}
+
+.scrolled .nav-item.active .nav-link,
+.scrolled .nav-item:focus .nav-link,
+.scrolled .nav-item:hover .nav-link,
+.scrolled .navbar-brand:hover {
+    color: rgb(31, 54, 61);
+}
+
 
 h1 {
     color: rgb(207, 224, 195);
@@ -33,19 +80,9 @@ body {
     background-color: rgb(31, 54, 61);
 }
 
-.navbar h1 {
-    text-align: center;
-}
-
 .navbar, #box {
     border-radius: 30px;
 }
-
-
-.accordion-button, #box, .navbar {
-    background-color: rgb(64, 121, 140);
-}
-
 
 .accordion-item {
     background-color: rgb(64, 121, 140)
@@ -62,26 +99,27 @@ body {
     color: rgb(158, 193, 163);
 }
 
+
+.form-text {
+    font-style: italic;
+}
+
+.form-label, .form-text {
+    color: rgb(207, 224, 195);
+    font-weight: bold;
+}
+
 .modal-header, .modal-footer {
     background-color: rgb(31, 54, 61);
 }
 
 .modal-body {
     background-color: rgb(64, 121, 140);
-    position: relative;
-    overflow-y: auto;
-    max-height: 600px;
-    padding: 15px;
 }
 
 .modal-content {
     color: rgb(207, 224, 195);
     font-weight: bold;
-}
-
-.form-text {
-    color: rgb(207, 224, 195);
-    font-style: italic;
 }
 
 
