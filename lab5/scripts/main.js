@@ -127,7 +127,15 @@ $(document).ready(function(){
         }
     });
 
+    $("#gotoCheckout").click(function() {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#checkout").offset().top
+        }, 2000);
+    });
+
 });
+
+
 
 $(document).scroll(function () {
 
