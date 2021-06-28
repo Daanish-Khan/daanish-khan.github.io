@@ -11,6 +11,21 @@ html {
     transition: background-color 200ms linear;
 }
 
+.scrolled #logoAbout {
+    content:url("https://img.icons8.com/material/30/40798C/about--v1.png")
+}
+
+.scrolled #logoService {
+    content:url("https://img.icons8.com/ios-filled/30/40798C/veterinarian.png")
+}
+
+.scrolled #logoVet {
+    content:url("https://img.icons8.com/ios-filled/30/40798C/veterinarian-male.png")
+}
+
+.scrolled #logoAptmnt {
+    content:url("https://img.icons8.com/ios-filled/30/40798C/health-calendar.png")
+}
 
 td{
     font-size: 25px;
