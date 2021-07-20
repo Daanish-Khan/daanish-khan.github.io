@@ -1,0 +1,258 @@
+
+
+@font-face {
+  font-family: Prompt;
+  src: local("Prompt"), url(./fonts/Prompt-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Prompt;
+  src: local("Prompt"), url(./fonts/Prompt-Bold.ttf) format("truetype");
+  font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.home {
+  text-align: center;
+  font-family: Prompt;
+}
+
+.home-header {
+  background-color: #D8CBFF;
+  min-height: 100vh;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+#nav {
+  position:fixed;
+  z-index: 1;
+  width: 100%;
+  float: left;
+  margin: 0 0 3em 0;
+  padding: 0;
+  list-style: none;
+  background-color: #68A3FF;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+
+}
+
+#nav li {
+	float: left; 
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+#nav li a {
+		display: block;
+		padding: 8px 15px;
+		text-decoration: none;
+		font-weight: bold;
+    font-size: 25px;
+		color: black;
+    text-align: center;
+}
+
+#nav li Link {
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+#carosel {
+
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 13vh;
+
+}
+
+.each-slide > div {
+  display:block;
+  align-items: center;
+  justify-content: center;
+  background-size:cover;
+  background-position: center;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.indicator {
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+  border: 3px white solid;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.indicator.active {
+  color: #fff;
+  background: white;
+}
+
+.featured {
+  border: 1px solid black;
+  float: left;
+  height: 2em;
+}
+
+.featured .small {
+  width: 10px;
+}
+
+.featured .big {
+  width: 10px;
+}
+
+#container {
+  width: 90vw;
+  height: 450px;
+  margin: 3vh 0 0 6vw;
+}
+
+#container .box {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: white;
+  height: 100%;
+  margin: 0 0 0 0;
+}
+
+#container .box1 {
+  width: 500px;  
+}
+
+#container .box2 {
+  width: 1000px;
+  margin: 0 3vw 0 3vw;
+}
+
+.visit {
+
+  position: relative;
+  background-color: #68A3FF !important;
+  font-weight: bold !important;
+  bottom:  4% !important;
+
+}
+
+#container p {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#container .fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+
+#container .fill img {
+  height: 200px;
+}
+
+/* Shop CSS */
+
+#shopContainer {
+  width: 95vw;
+  height: 85vh;
+  margin: 10vh 0 0 0vw;
+  padding: 0 0 5vh 5vw;
+}
+
+#shopContainer .shopBox {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: white;
+  height: 100%;
+  margin: 0 0 0 0;
+}
+
+#shopContainer .shopBox1 {
+  width: 300px;  
+}
+
+#shopContainer .shopBox2 {
+  width: 1800px;
+  margin: 0 3vw 0 3vw;
+  vertical-align: top;
+}
+
+.square {
+  background-color: #D8CBFF;
+  border-radius: 20px;
+  float: left;
+  position: relative;
+  width: 15%;
+  padding-bottom: 16%; /* = width for a 1:1 aspect ratio */
+  margin: 1.66%;
+  overflow: hidden;
+
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.square span {
+  position:absolute;
+  bottom: 0;
+  left: 30%;
+}
+
+.itemContainer {
+  position:relative;
+  width:100%;
+  height:100%;
+  padding-left: 60px;
+  padding-top: 50px;
+}
+
+.shopSearch {
+  border: 8px #D8CBFF solid !important;
+  border-radius: 20px !important;
+}
+
+.react-search-field-input {
+  border-radius: 20px !important;
+}
+
+.react-search-field-button {
+  border-right: 20px !important;
+}
+
+.filter {
+  
+  height: 70%;
+  width:auto
+}
+
+.dropdown {
+  margin-top:15px;
+}
+
+.Dropdown-control {
+  border-radius: 20px;
+}
+
+.Dropdown-menu {
+  border-radius: 20px;
+}
+
+#nav li .active {
+  color:white;
+}
+
+
+
