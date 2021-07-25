@@ -1,0 +1,50 @@
+responses:
+   utter_greet:
+       - text: |
+           Hello! How can I help you?
+       - text: |
+           Hi!
+   utter_ask_email:
+       - text: |
+           What is your email address?
+   utter_subscribed:
+       - text: |
+           Check your inbox at {email} in order to finish subscribing to the newsletter!
+       - text: |
+           You're all set! Check your inbox at {email} to confirm your subscription.
+    utter_thanks:
+        - text: |
+            Glad I could help!
+        - text: |
+            No problem.
+        - text: | 
+            You're very welcome :)
+        - text: | 
+            You're welcome!
+    utter_bye:
+        - text: |
+            Goodbye!
+        - text: | 
+            Have a great rest of your day!
+        - text: |
+            Bye now!
+        - text: |
+            Ciao!
+    utter_ask:
+        - text: |
+            May I ask why you want to unsubscribe?
+        - text: |
+            I can do that. Can I ask what reason you are unsubscribing today?
+        - text: |
+            Sure. Why are you unsubscribing today?
+        - text: |
+            We're sad to see you go! Is there any reason why you're leaving us?
+    utter_response:
+        - text: |
+            We're sorry you feel that way! You've been unsubbed from the mailing list.
+        - text: |
+            Ok, we understand. You have been unsubbed from the mailing list.
+        - text: |
+            No problem! I've gone ahead and remove you from the mailing list.
+        - text: |
+            We're sorry to hear that! You have been removed from the mailing list.
